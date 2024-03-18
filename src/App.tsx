@@ -460,8 +460,8 @@ function App() {
                 <LuRocket className="text-[18px]" />
                 <p className="text-[14px] font-bold h-[14px] pb-[20px]">Get started</p>
               </button>
-              <button className="flex flex-row items-center justify-center bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-full h-[50px] rounded-[8px] active:scale-95 transition-all">
-                <div className="flex flex-row items-center justify-center gap-3 w-[330px] h-[46px] rounded-[7px] bg-[#030812]">
+              <button className="flex flex-row items-center justify-center bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-full h-[50px] rounded-[8px] active:scale-95 transition-all px-[2px]">
+                <div className="flex flex-row items-center justify-center gap-3 w-full h-[46px] rounded-[7px] bg-[#030812]">
                   <IoIosEye className="text-[18px]" />
                   <p className="text-[14px] font-bold h-[14px] pb-[20px]">View demo</p>
                 </div>
@@ -566,8 +566,8 @@ function App() {
               enim! Lorem ipsum dolor sit. Ut enim et, magna rooleip ynnej.
             </p>
 
-            <button className="flex flex-row items-center justify-center bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-full h-[50px] rounded-[8px] active:scale-95 transition-all">
-              <div className="flex flex-row items-center justify-center gap-3 w-[331px] h-[46px] rounded-[7px] bg-[#030812]">
+            <button className="flex flex-row items-center justify-center bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-full h-[50px] rounded-[8px] active:scale-95 transition-all px-[2px]">
+              <div className="flex flex-row items-center justify-center gap-3 w-full h-[46px] rounded-[7px] bg-[#030812]">
                 <IoIosEye className="text-[18px]" />
                 <p className="text-[14px] font-bold h-[14px] pb-[20px]">View demo</p>
               </div>
