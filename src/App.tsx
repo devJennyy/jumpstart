@@ -407,9 +407,9 @@ function App() {
       {/*══════════════════════════════════════════════════════════════════════════ 
                               M O B I L E  C O N T A I N E R                                   
         ══════════════════════════════════════════════════════════════════════════*/}
-      <div className="flex-col bg-[#030812] w-full h-full text-white md:hidden">
+      <div className="flex-col bg-[#030812] w-full h-full text-white md:hidden snap-y snap-mandatory">
         {/* Navbar */}
-        <div className="flex flex-row justify-between items-center px-5 h-[70px] pt-2 w-full fixed top-0 bg-[#030812]/30 backdrop-blur-md z-50 ">
+        <div className="flex flex-row justify-between items-center px-5 h-[70px] pt-2 w-full fixed top-0 bg-[#030812]/30 backdrop-blur-md z-50 snap-always snap-center">
           <button className="flex flex-row justify-start items-center gap-2">
             <img src="/logo.svg" className="object-cover w-[25px] h-[26px]" />
             <p className="text-[16px] font-bold">JumpStart</p>
@@ -421,7 +421,7 @@ function App() {
         </div>
 
         {/* Body */}
-        <div className="flex flex-col pt-16 px-5">
+        <div className="flex flex-col pt-16 px-5 snap-always snap-center">
           <div className="flex justify-center items-center">
             <img
               src="/images/startup.png"
@@ -461,7 +461,7 @@ function App() {
                 <p className="text-[14px] font-bold h-[14px] pb-[20px]">Get started</p>
               </button>
               <button className="flex flex-row items-center justify-center bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-full h-[50px] rounded-[8px] active:scale-95 transition-all">
-                <div className="flex flex-row items-center justify-center gap-3 w-[331px] h-[46px] rounded-[7px] bg-[#030812]">
+                <div className="flex flex-row items-center justify-center gap-3 w-[330px] h-[46px] rounded-[7px] bg-[#030812]">
                   <IoIosEye className="text-[18px]" />
                   <p className="text-[14px] font-bold h-[14px] pb-[20px]">View demo</p>
                 </div>
@@ -471,7 +471,7 @@ function App() {
         </div>
 
         {/* Explore */}
-        <div className="flex flex-col pt-32 bg-[#030812] w-full h-[100vh]">
+        <div className="flex flex-col pt-32 bg-[#030812] w-full h-[100vh] snap-always snap-center">
           <p className="text-[26px] font-bold pb-10">How it Works</p>
 
           <div className="flex flex-row justify-between items-center overflow-auto no-scrollbar">
@@ -531,7 +531,7 @@ function App() {
         </div>
 
         {/* About us */}
-        <div className="flex flex-col pt-24 bg-[#030812] w-full h-[100vh] px-5">
+        <div className="flex flex-col pt-24 bg-[#030812] w-full h-[100vh] px-5 snap-always snap-center">
           <div className="flex flex-col w-full h-full">
             <div className="flex flex-row pl-[30px]">
               <div className="border w-[100px] h-[126px] relative">
