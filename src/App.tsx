@@ -558,7 +558,7 @@ function App() {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center items-center gap-5 pb-5">
+          <div className="flex flex-col justify-center items-center gap-5 pb-7">
             <p className="text-[26px] font-bold">About us</p>
             <p className="w-full text-[12px] font-medium text-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
