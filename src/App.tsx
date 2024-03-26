@@ -416,57 +416,164 @@ function App() {
           </button>
 
           <button className="text-white">
-          <RxHamburgerMenu className="w-5 h-4"/>
+            <RxHamburgerMenu className="w-5 h-4" />
           </button>
         </div>
 
         {/* Body */}
         <div className="flex flex-col pt-16 px-5">
           <div className="flex justify-center items-center">
-            <img src="/images/startup.png" className="object-cover w-[350px] h-[290px]"/>
+            <img
+              src="/images/startup.png"
+              className="object-cover w-[350px] h-[290px]"
+            />
           </div>
 
-            {/* <div className="pt-3 pl-2">
+          {/* <div className="pt-3 pl-2">
               <img src="/images/star-one.svg" className="w-[18px] h-[18px]"/>
             </div> */}
 
-            <div className="flex flex-col items-start mt-4">
-              <p className="text-[24px] font-medium">Want to manage your</p>
-              <div className="flex flex-col items-start text-[36px] font-bold bg-gradient-to-b from-[#FDAE8F] to-[#FD1C68] bg-clip-text text-transparent mt-[-5px]">  
-                <p>Commissions?</p>
-                <img
-                  src="/images/line.svg"
-                  className="w-[210px] bg-cover mt-[-4px] ml-1"
-                />
-              </div>
+          <div className="flex flex-col items-start mt-4">
+            <p className="text-[24px] font-medium">Want to manage your</p>
+            <div className="flex flex-col items-start text-[36px] font-bold bg-gradient-to-b from-[#FDAE8F] to-[#FD1C68] bg-clip-text text-transparent mt-[-5px]">
+              <p>Commissions?</p>
+              <img
+                src="/images/line.svg"
+                className="w-[210px] bg-cover mt-[-4px] ml-1"
+              />
             </div>
+          </div>
 
-            <div className="flex flex-col items-start text-[12px] text-[#CFCFD1] font-normal pt-5 pb-5">
-              <p>Take control of your commissions with ease.</p>
-              <p>᠎᠎᠎᠎ Lets track it together!</p>
-            </div>
+          <div className="flex flex-col items-start text-[12px] text-[#CFCFD1] font-normal pt-5 pb-5">
+            <p>Take control of your commissions with ease.</p>
+            <p>᠎᠎᠎᠎ Lets track it together!</p>
+          </div>
 
-            {/* <div className="flex flex-row justify-between px-3 pb-5">
+          {/* <div className="flex flex-row justify-between px-3 pb-5">
               <img src="/images/star-two.svg" className="w-[8px] h-[8px]"/>
               <img src="/images/star-three.svg" className="w-[10px] h-[10px] mr-20" />
             </div> */}
 
-            <div className="flex flex-row justify-center items-center">
-              <div className="flex flex-col items-start gap-3 text-[14px] font-medium tracking-[1px] pt-2 w-full">
-                <button className="flex flex-row items-center justify-center gap-3 bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-full h-[50px] rounded-[8px] active:scale-95 transition-all">
-                  <LuRocket className="text-[18px]" />
-                  <p>Get started</p>
-                </button>
-                <button className="flex flex-row justify-center items-center gap-3 border-[1px] w-full h-[50px] rounded-[8px] active:scale-95 transition-all">
+          <div className="flex flex-row justify-center items-center">
+            <div className="flex flex-col items-start gap-3 font-medium pt-2 w-full">
+              <button className="flex flex-row items-center justify-center gap-3 bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-full h-[50px] rounded-[8px] active:scale-95 transition-all">
+                <LuRocket className="text-[18px]" />
+                <p className="text-[14px] font-bold h-[14px] pb-[20px]">Get started</p>
+              </button>
+              <button className="flex flex-row items-center justify-center bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-full h-[50px] rounded-[8px] active:scale-95 transition-all">
+                <div className="flex flex-row items-center justify-center gap-3 w-[331px] h-[46px] rounded-[7px] bg-[#030812]">
                   <IoIosEye className="text-[18px]" />
-                  <p>View Demo</p>
-                </button>
-              </div>
+                  <p className="text-[14px] font-bold h-[14px] pb-[20px]">View demo</p>
+                </div>
+              </button>
             </div>
+          </div>
         </div>
 
-        
+        {/* Explore */}
+        <div className="flex flex-col pt-32 bg-[#030812] w-full h-[100vh]">
+          <p className="text-[26px] font-bold pb-10">How it Works</p>
 
+          <div className="flex flex-row justify-between items-center overflow-auto no-scrollbar">
+            <div className="flex justify-center items-center no-scrollbar">
+              <div className="flex-1 w-[100vw] bg-info h-full">
+                <div className="flex flex-col justify-center items-center gap-10">
+                  <img
+                    src="/images/demo-pic.png"
+                    className="min-w-[263px] h-[152px]"
+                  />
+                  <div className="flex flex-col items-start justify-start gap-3">
+                    <p className="text-[20px] font-bold">STEP 1</p>
+                    <p className="w-[263px] text-[12px] font-medium text-justify">
+                      Lorem ipsum dolor sit amet, consecte adipiscing elit, sed
+                      doeiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim!
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex-1 w-[100vw] bg-info h-full">
+                <div className="flex flex-col justify-center items-center gap-10">
+                  <img
+                    src="/images/demo-pic.png"
+                    className="min-w-[263px] h-[152px]"
+                  />
+                  <div className="flex flex-col items-start justify-start gap-3">
+                    <p className="text-[20px] font-bold">STEP 2</p>
+                    <p className="w-[263px] text-[12px] font-medium text-justify">
+                      Lorem ipsum dolor sit amet, consecte adipiscing elit, sed
+                      doeiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim!
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex-1 w-[100vw] bg-info h-full">
+                <div className="flex flex-col justify-center items-center gap-10">
+                  <img
+                    src="/images/demo-pic.png"
+                    className="min-w-[263px] h-[152px]"
+                  />
+                  <div className="flex flex-col items-start justify-start gap-3">
+                    <p className="text-[20px] font-bold">STEP 3</p>
+                    <p className="w-[263px] text-[12px] font-medium text-justify">
+                      Lorem ipsum dolor sit amet, consecte adipiscing elit, sed
+                      doeiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* About us */}
+        <div className="flex flex-col pt-24 bg-[#030812] w-full h-[100vh] px-5">
+          <div className="flex flex-col w-full h-full">
+            <div className="flex flex-row pl-[30px]">
+              <div className="border w-[100px] h-[126px] relative">
+                <div className="bg-[#ED6C8D] w-[99px] h-[100px] absolute top-0 right-0 mt-[-12px] mr-[-15px] outline outline-[#030812] outline-[5px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
+              </div>
+
+              <div className="pt-[40px] pl-[50px]">
+                <div className="border w-[100px] h-[126px] relative">
+                  <div className="bg-[#ED6C8D] w-[99px] h-[100px] absolute top-0 right-0 mt-[-12px] mr-[-15px] outline outline-[#030812] outline-[5px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-row pl-[45px]">
+              <div className="border w-[100px] h-[126px] relative">
+                <div className="bg-[#ED6C8D] w-[99px] h-[100px] absolute top-0 right-0 mt-[-12px] mr-[-15px] outline outline-[#030812] outline-[5px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
+              </div>
+
+              <div className="pt-[40px] pl-[50px]">
+                <div className="border w-[100px] h-[126px] relative">
+                  <div className="bg-[#ED6C8D] w-[99px] h-[100px] absolute top-0 right-0 mt-[-12px] mr-[-15px] outline outline-[#030812] outline-[5px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col justify-center items-center gap-5 pb-5">
+            <p className="text-[26px] font-bold">About us</p>
+            <p className="w-full text-[12px] font-medium text-justify">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+              doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim! Lorem ipsum dolor sit. Ut enim et, magna rooleip ynnej.
+            </p>
+
+            <button className="flex flex-row items-center justify-center bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-full h-[50px] rounded-[8px] active:scale-95 transition-all">
+              <div className="flex flex-row items-center justify-center gap-3 w-[331px] h-[46px] rounded-[7px] bg-[#030812]">
+                <IoIosEye className="text-[18px]" />
+                <p className="text-[14px] font-bold h-[14px] pb-[20px]">View demo</p>
+              </div>
+            </button>
+          </div>
+        </div>
       </div>
     </>
   );
