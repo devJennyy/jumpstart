@@ -1,13 +1,16 @@
-import './App.css'
+import { LuRocket } from "react-icons/lu";
+import "./App.css";
+import { IoEyeSharp } from "react-icons/io5";
+import { GrFormViewHide } from "react-icons/gr";
+import { IoIosEye } from "react-icons/io";
 
 function App() {
-
   return (
     <>
       {/*Main Container*/}
-      <div className="flex flex-col bg-[#030812] w-full h-full text-white px-56 py-11">
+      <div className="flex flex-col bg-[#030812] w-full h-full text-white px-56 py-5">
         {/*Navbar*/}
-        <div className="flex flex-row justify-between items-center">
+        <div className="flex flex-row justify-between items-center h-[100px]">
           <button className="flex flex-row justify-start items-center gap-4">
             <div>
               <img src="/logo.svg" className="w-[47px] h-[51px] object-cover" />
@@ -35,21 +38,28 @@ function App() {
           {/*Column 1*/}
           <div className="flex flex-col justify-center items-start w-1/2 h-full">
             <p className="text-[48px] font-bold">Want to manage your</p>
-            <div className="text-[80px] font-bold gradient-text-to-bl from-[#FDAE8F] to-[#FD1C68]">
+            <div className="flex flex-col text-[80px] font-bold bg-gradient-to-b from-[#FDAE8F] to-[#FD1C68] bg-clip-text text-transparent mt-[-20px]">
               <p>Commissions?</p>
+              <img
+                src="/images/line.svg"
+                className=" w-[500px] bg-cover mt-[-10px]"
+              />
             </div>
 
-            <p className="text-[20px] font-normal pt-4">
-              Take control of your commissions with ease. Let's track it
-              together!
-            </p>
+            <div className="flex flex-col items-start text-[20px] font-normal pt-10 pb-10">
+              <p>
+                Take control of your commissions with ease.
+              </p>
+              <p>Let's track it together!</p>
+            </div>
 
             <div className="flex flex-row gap-4 text-[20px] font-bold pt-6">
-              <div className='flex flex-row items-center justify-center gap-3 bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-[216px] h-[59px] rounded-[16px]'>
-                <img src="/images/rocket.svg" />
+              <div className="flex flex-row items-center justify-center gap-3 bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-[216px] h-[59px] rounded-[16px]">
+                <LuRocket className="text-[24px]" />
                 <button>Let's go!</button>
               </div>
-              <div className='flex flex-row justify-center items-center border-2 w-[216px] h-[59px] rounded-[16px]'>
+              <div className="flex flex-row justify-center items-center gap-3 border-2 w-[216px] h-[59px] rounded-[16px]">
+                <IoIosEye className="text-[24px]" />
                 <button>View Demo</button>
               </div>
             </div>
@@ -68,4 +78,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
