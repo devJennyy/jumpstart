@@ -9,7 +9,7 @@ function App() {
       {/* Main Container*/}
       <div className=" bg-[#030812] w-full text-white pt-5">
         {/* Navbar */}
-        <div className="flex flex-row justify-between items-center h-[100px] w-full px-56 fixed top-0 bg-[#030812]/30 backdrop-blur-md z-50">
+        <div className="flex flex-row justify-between items-center h-[100px] w-full px-56 fixed top-0 bg-[#030812]/30 backdrop-blur-md z-50 ">
           <button className="flex flex-row justify-start items-center gap-4">
             <div>
               <img src="/logo.svg" className="w-[47px] h-[51px] object-cover" />
@@ -34,7 +34,7 @@ function App() {
 
           <div className="flex flex-row justify-center items-center gap-10">
             <button className="text-16 font-bold">Log in</button>
-            <button className="text-16 font-bold w-[103px] h-[43px] rounded-[12px] bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68]">
+            <button className="sign-up text-16 font-bold w-[103px] h-[43px] rounded-[12px] bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68]">
               <p>Sign up</p>
             </button>
           </div>
@@ -75,7 +75,7 @@ function App() {
               <div className="flex flex-row items-start gap-4 text-[20px] font-bold pt-6 pl-16">
                 <button className="flex flex-row items-center justify-center gap-3 bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-[216px] h-[59px] rounded-[16px]">
                   <LuRocket className="text-[24px]" />
-                  <p>Get started!</p>
+                  <p>Get started</p>
                 </button>
                 <button className="flex flex-row justify-center items-center gap-3 border-2 w-[216px] h-[59px] rounded-[16px]">
                   <IoIosEye className="text-[24px]" />
@@ -258,17 +258,12 @@ function App() {
               doeiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
 
-            {/* <div className="flex flex-row items-center justify-center gap-3">
-              <button className="relative w-[216px] h-[59px] rounded-[16px] gradient-border">
-                <LuRocket className="absolute text-[24px]" />
-                <span className="inline-block">Let's go!</span>
-              </button>
-            </div> */}
-
-            <button className="flex flex-row items-center justify-center gap-3 text-white w-[216px] h-[59px] gradient-border-one mt-8">
-              <LuRocket className="text-[24px]" />
-              <p className="text-[20px] font-bold">Get started!</p>
+            <button className="flex flex-row items-center justify-center gap-3 bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-[216px] h-[59px] rounded-[16px]">
+                  <LuRocket className="text-[24px]" />
+                  <p className="font-bold">Get started</p>
             </button>
+
+            
           </div>
         </div>
 
