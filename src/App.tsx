@@ -258,13 +258,13 @@ function App() {
               doeiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
 
-            <button className="flex flex-row items-center justify-center gap-3 bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-[216px] h-[59px] rounded-[16px]">
-                  <LuRocket className="text-[24px]" />
-                  <p className="font-bold text-[20px]">Get started</p>
-            </button>
-            <button className="flex flex-row items-center justify-center gap-3 bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-[216px] h-[59px] rounded-[16px]">
-                  <LuRocket className="text-[24px]" />
-                  <p className="font-bold text-[20px]">Get started</p>
+            <button className="flex flex-row items-center justify-center bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-[216px] h-[59px] rounded-[16px]">
+              <div className="flex justify-center items-center bg-[#030812] w-[210px] h-[53px] rounded-[13px] gap-3">
+                <LuRocket className="text-[24px]" />
+                <p className="font-bold text-[20px]">
+                  Get started
+                </p>
+              </div>
             </button>
           </div>
         </div>
@@ -381,7 +381,7 @@ function App() {
             </button>
           </div>
         </div>
-        
+
         {/* Footer */}
         <div className="flex flex-col justify-center items-center bg-[url('/images/wave.png')] bg-cover h-[156px] w-full text-[13px] font-normal gap-2 text-[#CCD6F6] pt-9">
           <p>Design & Built by Jenny Pieloor</p>
