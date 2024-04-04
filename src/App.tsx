@@ -409,7 +409,7 @@ function App() {
         ══════════════════════════════════════════════════════════════════════════*/}
       <div className="flex-col bg-[#030812] w-full h-full text-white md:hidden">
         {/* Navbar */}
-        <div className="flex flex-row justify-between items-center px-6 h-[70px] pt-2 w-full fixed top-0 bg-[#030812]/30 backdrop-blur-md z-50 ">
+        <div className="flex flex-row justify-between items-center px-8 h-[70px] pt-2 w-full fixed top-0 bg-[#030812]/30 backdrop-blur-md z-50 ">
           <button className="flex flex-row justify-start items-center gap-2">
             <img src="/logo.svg" className="object-cover w-[25px] h-[26px]" />
             <p className="text-[16px] font-bold">JumpStart</p>
@@ -421,27 +421,27 @@ function App() {
         </div>
 
         {/* Body */}
-        <div className="flex flex-col pt-16">
+        <div className="flex flex-col pt-16 px-8">
           <div className="flex justify-center items-center">
-            <img src="/images/startup.png" className="object-cover w-[350px] h-[300px]"/>
+            <img src="/images/startup.png" className="object-cover w-[350px] h-[290px]"/>
           </div>
 
             {/* <div className="pt-3 pl-2">
               <img src="/images/star-one.svg" className="w-[18px] h-[18px]"/>
             </div> */}
 
-            <div className="flex flex-col items-start px-5 mt-4">
-              <p className="text-[18px] font-medium">Want to manage your</p>
-              <div className="flex flex-col items-start text-[28px] font-bold bg-gradient-to-b from-[#FDAE8F] to-[#FD1C68] bg-clip-text text-transparent mt-[-5px]">
+            <div className="flex flex-col items-start mt-4">
+              <p className="text-[24px] font-medium">Want to manage your</p>
+              <div className="flex flex-col items-start text-[36px] font-bold bg-gradient-to-b from-[#FDAE8F] to-[#FD1C68] bg-clip-text text-transparent mt-[-5px]">
                 <p>Commissions?</p>
                 <img
                   src="/images/line.svg"
-                  className="w-[170px] bg-cover mt-[-4px] ml-1"
+                  className="w-[210px] bg-cover mt-[-4px] ml-1"
                 />
               </div>
             </div>
 
-            <div className="flex flex-col items-start text-[12px] text-[#CFCFD1] font-normal pt-5 pb-5 px-5">
+            <div className="flex flex-col items-start text-[12px] text-[#CFCFD1] font-normal pt-5 pb-5">
               <p>Take control of your commissions with ease.</p>
               <p>᠎᠎᠎᠎ Lets track it together!</p>
             </div>
@@ -451,13 +451,13 @@ function App() {
               <img src="/images/star-three.svg" className="w-[10px] h-[10px] mr-20" />
             </div> */}
 
-            <div className="flex flex-row justify-center items-center px-5">
-              <div className="flex flex-col items-start gap-2 text-[14px] font-medium tracking-[1px] pt-2 w-full">
-                <button className="flex flex-row items-center justify-center gap-3 bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-full h-[45px] rounded-[8px] active:scale-95 transition-all">
+            <div className="flex flex-row justify-center items-center">
+              <div className="flex flex-col items-start gap-3 text-[14px] font-medium tracking-[1px] pt-2 w-full">
+                <button className="flex flex-row items-center justify-center gap-3 bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-full h-[50px] rounded-[8px] active:scale-95 transition-all">
                   <LuRocket className="text-[18px]" />
                   <p>Get started</p>
                 </button>
-                <button className="flex flex-row justify-center items-center gap-3 border-[1px] w-full h-[45px] rounded-[8px] active:scale-95 transition-all">
+                <button className="flex flex-row justify-center items-center gap-3 border-[1px] w-full h-[50px] rounded-[8px] active:scale-95 transition-all">
                   <IoIosEye className="text-[18px]" />
                   <p>View Demo</p>
                 </button>
