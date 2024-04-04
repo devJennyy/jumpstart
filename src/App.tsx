@@ -10,12 +10,12 @@ function App() {
       <div className=" bg-[#030812] w-full text-white pt-5">
         {/* Navbar */}
         <div className="flex flex-row justify-between items-center h-[100px] w-full px-56 fixed top-0 bg-[#030812]/30 backdrop-blur-md z-50 ">
-          <button className="flex flex-row justify-start items-center gap-4">
+          <a href="#homepage" className="flex flex-row justify-start items-center gap-4">
             <div>
               <img src="/logo.svg" className="w-[47px] h-[51px] object-cover" />
             </div>
             <p className="text-[32px] font-bold">JumpStart</p>
-          </button>
+          </a>
 
           <div className="flex flex-row justify-center items-center gap-14 nav-container">
             <a href="#homepage" className="text-16 font-bold">
@@ -33,8 +33,8 @@ function App() {
           </div>
 
           <div className="flex flex-row justify-center items-center gap-10">
-            <button className="text-16 font-bold">Log in</button>
-            <button className="sign-up text-16 font-bold w-[103px] h-[43px] rounded-[12px] bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68]">
+            <button className="text-16 font-bold active:scale-95 transition-all">Log in</button>
+            <button className="flex justify-center items-center sign-up text-16 font-bold w-[103px] h-[43px] rounded-[12px] bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] active:scale-95 transition-all">
               <p>Sign up</p>
             </button>
           </div>
@@ -73,11 +73,11 @@ function App() {
 
             <div className="flex flex-row justify-center items-center">
               <div className="flex flex-row items-start gap-4 text-[20px] font-bold pt-6 pl-16">
-                <button className="flex flex-row items-center justify-center gap-3 bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-[216px] h-[59px] rounded-[16px]">
+                <button className="flex flex-row items-center justify-center gap-3 bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-[216px] h-[59px] rounded-[16px] active:scale-95 transition-all">
                   <LuRocket className="text-[24px]" />
                   <p>Get started</p>
                 </button>
-                <button className="flex flex-row justify-center items-center gap-3 border-2 w-[216px] h-[59px] rounded-[16px]">
+                <button className="flex flex-row justify-center items-center gap-3 border-2 w-[216px] h-[59px] rounded-[16px] active:scale-95 transition-all">
                   <IoIosEye className="text-[24px]" />
                   <p>View Demo</p>
                 </button>
@@ -105,7 +105,7 @@ function App() {
 
           <div className="flex flex-row justify-between items-center relative">
             <div className="flex flex-col gap-10">
-              <img src="/images/demo-pic.png" className="w-[372px] h-[216px]" />
+              <img src="/images/demo-pic.png" className="w-[372px] h-[216px] hover:scale-110 z-50 transition-all cursor-pointer" />
 
               <div className="flex flex-col text-left gap-5">
                 <div className="flex flex-row items-center gap-14">
@@ -153,7 +153,7 @@ function App() {
                   Ut enim!
                 </p>
               </div>
-              <img src="/images/demo-pic.png" className="w-[372px] h-[216px]" />
+              <img src="/images/demo-pic.png" className="w-[372px] h-[216px] hover:scale-110 z-50 transition-all cursor-pointer" />
             </div>
 
             <img
@@ -162,7 +162,7 @@ function App() {
             />
 
             <div className="flex flex-col gap-10">
-              <img src="/images/demo-pic.png" className="w-[372px] h-[216px]" />
+              <img src="/images/demo-pic.png" className="w-[372px] h-[216px] hover:scale-110 z-50 transition-all cursor-pointer" />
               <div className="flex flex-col items-end gap-5">
                 <div className="flex flex-row items-center gap-10">
                   <div>
@@ -192,7 +192,7 @@ function App() {
           <div className="flex flex-col w-1/2 pb-14">
             <div className="flex flex-row">
               <div className="border w-[223px] h-[280px] relative">
-                <div className="bg-[#ED6C8D] w-[219px] h-[221px] absolute top-0 right-0 mt-[-32px] mr-[-32px] outline outline-[#030812] outline-[11px]"></div>
+                <div className="bg-[#ED6C8D] w-[219px] h-[221px] absolute top-0 right-0 mt-[-32px] mr-[-32px] outline outline-[#030812] outline-[11px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
                 <div className="flex flex-col justify-end text-left h-full pl-8 pb-3">
                   <p className="text-[16px] font-bold pb-1">Manage</p>
                   <p className="text-[12px] font-medium text-[#BDBDBD] w-[170px]">
@@ -204,7 +204,7 @@ function App() {
 
               <div className="pt-[66px] pl-[123px]">
                 <div className="border w-[223px] h-[280px] relative">
-                  <div className="bg-[#ED6C8D] w-[219px] h-[221px] absolute top-0 right-0 mt-[-32px] mr-[-32px] outline outline-[#030812] outline-[11px]"></div>
+                  <div className="bg-[#ED6C8D] w-[219px] h-[221px] absolute top-0 right-0 mt-[-32px] mr-[-32px] outline outline-[#030812] outline-[11px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
                   <div className="flex flex-col justify-end text-left h-full pl-8 pb-3">
                     <p className="text-[16px] font-bold pb-1">Track</p>
                     <p className="text-[12px] font-medium text-[#BDBDBD] w-[170px]">
@@ -218,7 +218,7 @@ function App() {
 
             <div className="flex flex-row pl-[50px]">
               <div className="border w-[223px] h-[280px] relative">
-                <div className="bg-[#ED6C8D] w-[219px] h-[221px] absolute top-0 right-0 mt-[-32px] mr-[-32px] outline outline-[#030812] outline-[11px]"></div>
+                <div className="bg-[#ED6C8D] w-[219px] h-[221px] absolute top-0 right-0 mt-[-32px] mr-[-32px] outline outline-[#030812] outline-[11px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
                 <div className="flex flex-col justify-end text-left h-full pl-8 pb-3">
                   <p className="text-[16px] font-bold pb-1">Record</p>
                   <p className="text-[12px] font-medium text-[#BDBDBD] w-[170px]">
@@ -230,7 +230,7 @@ function App() {
 
               <div className="pt-[66px] pl-[123px]">
                 <div className="border w-[223px] h-[280px] relative">
-                  <div className="bg-[#ED6C8D] w-[219px] h-[221px] absolute top-0 right-0 mt-[-32px] mr-[-32px] outline outline-[#030812] outline-[11px]"></div>
+                  <div className="bg-[#ED6C8D] w-[219px] h-[221px] absolute top-0 right-0 mt-[-32px] mr-[-32px] outline outline-[#030812] outline-[11px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
                   <div className="flex flex-col justify-end text-left h-full pl-8 pb-3">
                     <p className="text-[16px] font-bold pb-1">Maintained</p>
                     <p className="text-[12px] font-medium text-[#BDBDBD] w-[170px]">
@@ -258,7 +258,7 @@ function App() {
               doeiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
 
-            <button className="flex flex-row items-center justify-center bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-[216px] h-[59px] rounded-[16px]">
+            <button className="flex flex-row items-center justify-center bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-[216px] h-[59px] rounded-[16px] active:scale-95 transition-all">
               <div className="flex justify-center items-center bg-[#030812] w-[210px] h-[53px] rounded-[13px] gap-3">
                 <LuRocket className="text-[24px]" />
                 <p className="font-bold text-[20px]">
@@ -276,7 +276,7 @@ function App() {
         >
           <div className="flex flex-row justify-center items-center gap-32">
             <div className="flex flex-col justify-center items-center gap-5 mt-16">
-              <div className="rounded-[24px] border-[8px] border-[#353941] outline outline-1 outline-[#676A70]">
+              <div className="rounded-[24px] border-[8px] border-[#353941] outline outline-1 outline-[#676A70] cursor-pointer">
                 <img
                   src="/images/avatar-girl.jpeg"
                   className="object-scale-down w-full h-[142px] rounded-[16px]"
@@ -290,7 +290,7 @@ function App() {
                 </p>
               </div>
 
-              <div className="flex flex-row justify-items items-center gap-4">
+              <div className="flex flex-row justify-items items-center gap-4 icons">
                 <button className="text-[18px]">
                   <FaTwitter />
                 </button>
@@ -304,7 +304,7 @@ function App() {
             </div>
 
             <div className="flex flex-col justify-center items-center gap-5">
-              <div className="rounded-[24px] border-[8px] border-[#353941] outline outline-1 outline-[#676A70]">
+              <div className="rounded-[24px] border-[8px] border-[#353941] outline outline-1 outline-[#676A70] cursor-pointer">
                 <img
                   src="/logo.svg"
                   className="object-scale-down w-full h-[142px] rounded-[16px]"
@@ -318,7 +318,7 @@ function App() {
                 </p>
               </div>
 
-              <div className="flex flex-row justify-items items-center gap-4">
+              <div className="flex flex-row justify-items items-center gap-4 icons">
                 <button className="text-[18px]">
                   <FaTwitter />
                 </button>
@@ -332,7 +332,7 @@ function App() {
             </div>
 
             <div className="flex flex-col justify-center items-center gap-5 mt-16">
-              <div className="rounded-[24px] border-[8px] border-[#353941] outline outline-1 outline-[#676A70]">
+              <div className="rounded-[24px] border-[8px] border-[#353941] outline outline-1 outline-[#676A70] cursor-pointer">
                 <img
                   src="/images/avatar-boy.jpeg"
                   className="object-scale-down w-full h-[142px] rounded-[16px]"
@@ -346,7 +346,7 @@ function App() {
                 </p>
               </div>
 
-              <div className="flex flex-row justify-items items-center gap-4">
+              <div className="flex flex-row justify-items items-center gap-4 icons">
                 <button className="text-[18px]">
                   <FaTwitter />
                 </button>
@@ -365,7 +365,7 @@ function App() {
               MANAGE YOUR COMMISSIONS ON
             </p>
 
-            <div className="flex flex-row justify-center items-center gap-3">
+            <div className="flex flex-row justify-center items-center gap-3 cursor-pointer">
               <img src="/logo.svg" />
               <p className="text-[40px] font-bold">JumpStart</p>
             </div>
@@ -375,7 +375,7 @@ function App() {
               doeiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
 
-            <button className="flex flex-row items-center justify-center gap-3 bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-[216px] h-[59px] rounded-[16px] mt-6">
+            <button className="flex flex-row items-center justify-center gap-3 bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-[216px] h-[59px] rounded-[16px] mt-6 active:scale-95 transition-all">
               <LuRocket className="text-[24px]" />
               <p className="font-bold text-[20px]">Email us!</p>
             </button>
