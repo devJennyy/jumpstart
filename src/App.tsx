@@ -260,10 +260,12 @@ function App() {
 
             <button className="flex flex-row items-center justify-center gap-3 bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-[216px] h-[59px] rounded-[16px]">
                   <LuRocket className="text-[24px]" />
-                  <p className="font-bold">Get started</p>
+                  <p className="font-bold text-[20px]">Get started</p>
             </button>
-
-            
+            <button className="flex flex-row items-center justify-center gap-3 bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-[216px] h-[59px] rounded-[16px]">
+                  <LuRocket className="text-[24px]" />
+                  <p className="font-bold text-[20px]">Get started</p>
+            </button>
           </div>
         </div>
 
