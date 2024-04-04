@@ -409,7 +409,7 @@ function App() {
         ══════════════════════════════════════════════════════════════════════════*/}
       <div className="flex-col bg-[#030812] w-full h-full text-white md:hidden">
         {/* Navbar */}
-        <div className="flex flex-row justify-between items-center px-8 h-[70px] pt-2 w-full fixed top-0 bg-[#030812]/30 backdrop-blur-md z-50 ">
+        <div className="flex flex-row justify-between items-center px-5 h-[70px] pt-2 w-full fixed top-0 bg-[#030812]/30 backdrop-blur-md z-50 ">
           <button className="flex flex-row justify-start items-center gap-2">
             <img src="/logo.svg" className="object-cover w-[25px] h-[26px]" />
             <p className="text-[16px] font-bold">JumpStart</p>
@@ -421,7 +421,7 @@ function App() {
         </div>
 
         {/* Body */}
-        <div className="flex flex-col pt-16 px-8">
+        <div className="flex flex-col pt-16 px-5">
           <div className="flex justify-center items-center">
             <img src="/images/startup.png" className="object-cover w-[350px] h-[290px]"/>
           </div>
@@ -432,7 +432,7 @@ function App() {
 
             <div className="flex flex-col items-start mt-4">
               <p className="text-[24px] font-medium">Want to manage your</p>
-              <div className="flex flex-col items-start text-[36px] font-bold bg-gradient-to-b from-[#FDAE8F] to-[#FD1C68] bg-clip-text text-transparent mt-[-5px]">
+              <div className="flex flex-col items-start text-[36px] font-bold bg-gradient-to-b from-[#FDAE8F] to-[#FD1C68] bg-clip-text text-transparent mt-[-5px]">  
                 <p>Commissions?</p>
                 <img
                   src="/images/line.svg"
@@ -464,6 +464,8 @@ function App() {
               </div>
             </div>
         </div>
+
+        
 
       </div>
     </>
