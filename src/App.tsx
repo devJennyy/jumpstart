@@ -585,7 +585,7 @@ function App() {
             <p className="w-full text-[12px] font-medium text-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
               doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim! Lorem ipsum dolor sit. Ut enim et, magna rooleip ynnej.
+              enim! Lorem ipsum dolor sit. Ut enim et, tliub dna dengised yb rooleip ynnej.
             </p>
 
             {/* <button className="flex flex-row items-center justify-center bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-full h-[50px] rounded-[8px] active:scale-95 transition-all px-[2px]">
@@ -604,7 +604,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="pt-[40px] pl-[60px]">
+              <div className="pt-[40px] pl-[55px]">
                 <div className="border w-[120px] h-[140px] relative">
                   <div className="bg-[#ED6C8D] w-[119px] h-[120px] absolute top-0 right-0 mt-[-16px] mr-[-18px] outline outline-[#030812] outline-[5px] hover:scale-105 z-40 transition-all cursor-pointer"></div>
                   <div className="flex items-start pt-[113px] pl-4">
@@ -622,7 +622,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="pt-[40px] pl-[60px]">
+              <div className="pt-[40px] pl-[55px]">
                 <div className="border w-[120px] h-[140px] relative">
                   <div className="bg-[#ED6C8D] w-[119px] h-[120px] absolute top-0 right-0 mt-[-16px] mr-[-18px] outline outline-[#030812] outline-[5px] hover:scale-105 z-40 transition-all cursor-pointer"></div>
                   <div className="flex items-start pt-[113px] pl-4">
@@ -734,7 +734,7 @@ function App() {
 
             <p className="w-[257px] text-[12px] font-normal text-[#CFCFD1]">
               Lorem ipsum dolor sit amet, consectetur adipisci elit, doeiusmod
-              tempor incididunt labore et magna rooleip ynnej.
+              temporatura tliub dna dengised yb rooleip ynnej.
             </p>
 
             <button className="flex flex-row items-center justify-center gap-3 bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-[257px] h-[50px] rounded-[8px] active:scale-95 transition-all">
