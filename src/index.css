@@ -3,15 +3,32 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
+@layer utilities {
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+}
+
+html,
+body {
   height: 100%;
   width: 100%;
   scroll-behavior: smooth;
 }
 
-*{
-font-family: 'Urbanist', sans-serif;
-margin: 0;
+* {
+  font-family: 'Urbanist', sans-serif;
+  margin: 0;
 }
 
 #root {
@@ -30,9 +47,9 @@ margin: 0;
 
 .gradient-border-one {
   width: 216px;
-  height: 59px; 
-  border-radius: 16px; 
-  background: 
+  height: 59px;
+  border-radius: 16px;
+  background:
     linear-gradient(to top right, #FD1C68, #FDAE8F),
     linear-gradient(to top right, #FD1C68, #FDAE8F);
   background-origin: border-box;
@@ -41,25 +58,24 @@ margin: 0;
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
-  border: 2px solid transparent; 
+  border: 2px solid transparent;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.a{
+.a {
   transition: opacity 0.6s ease;
 }
 
-.nav-container:hover > :not(:hover) {
+.nav-container:hover> :not(:hover) {
   opacity: 0.4;
 }
 
+.button {
+  transition: opacity 0.6s ease;
+}
 
-
-
-
-
-
-
-
+.icons:hover> :not(:hover) {
+  opacity: 0.4;
+}

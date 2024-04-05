@@ -407,7 +407,7 @@ function App() {
       {/*══════════════════════════════════════════════════════════════════════════ 
                               M O B I L E  C O N T A I N E R                                   
         ══════════════════════════════════════════════════════════════════════════*/}
-      <div className="flex-col bg-[#030812] w-full h-full text-white md:hidden snap-y snap-mandatory">
+      <div className="flex-col bg-[#030812] w-full text-white md:hidden snap-y snap-mandatory">
         {/* Navbar */}
         <div className="flex flex-row justify-between items-center px-5 h-[70px] pt-2 w-full fixed top-0 bg-[#030812]/30 backdrop-blur-md z-50 snap-always snap-center">
           <button className="flex flex-row justify-start items-center gap-2">
@@ -458,12 +458,16 @@ function App() {
             <div className="flex flex-col items-start gap-3 font-medium pt-2 w-full">
               <button className="flex flex-row items-center justify-center gap-3 bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-full h-[50px] rounded-[8px] active:scale-95 transition-all">
                 <LuRocket className="text-[18px]" />
-                <p className="text-[14px] font-bold h-[14px] pb-[20px]">Get started</p>
+                <p className="text-[14px] font-bold h-[14px] pb-[20px]">
+                  Get started
+                </p>
               </button>
               <button className="flex flex-row items-center justify-center bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-full h-[50px] rounded-[8px] active:scale-95 transition-all px-[2px]">
                 <div className="flex flex-row items-center justify-center gap-3 w-full h-[46px] rounded-[7px] bg-[#030812]">
                   <IoIosEye className="text-[18px]" />
-                  <p className="text-[14px] font-bold h-[14px] pb-[20px]">View demo</p>
+                  <p className="text-[14px] font-bold h-[14px] pb-[20px]">
+                    View demo
+                  </p>
                 </div>
               </button>
             </div>
@@ -471,8 +475,8 @@ function App() {
         </div>
 
         {/* Explore */}
-        <div className="flex flex-col pt-32 bg-[#030812] w-full h-[100vh] snap-always snap-center">
-          <p className="text-[26px] font-bold pb-10">How it Works</p>
+        <div className="flex flex-col pt-24 bg-[#030812] w-full h-[100vh] snap-always snap-center">
+          <p className="text-[26px] font-bold pb-14">How it Works</p>
 
           <div className="flex flex-row justify-between items-center overflow-auto no-scrollbar">
             <div className="flex justify-center items-center no-scrollbar">
@@ -487,7 +491,8 @@ function App() {
                     <p className="w-[263px] text-[12px] font-medium text-justify">
                       Lorem ipsum dolor sit amet, consecte adipiscing elit, sed
                       doeiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim!
+                      aliqua. Consectetur adipiscing elit, sed Un magna rooleip
+                      ynnej.
                     </p>
                   </div>
                 </div>
@@ -504,7 +509,8 @@ function App() {
                     <p className="w-[263px] text-[12px] font-medium text-justify">
                       Lorem ipsum dolor sit amet, consecte adipiscing elit, sed
                       doeiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim!
+                      aliqua. Consectetur adipiscing elit, sed Un magna rooleip
+                      ynnej.
                     </p>
                   </div>
                 </div>
@@ -521,7 +527,8 @@ function App() {
                     <p className="w-[263px] text-[12px] font-medium text-justify">
                       Lorem ipsum dolor sit amet, consecte adipiscing elit, sed
                       doeiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim!
+                      aliqua. Consectetur adipiscing elit, sed Un magna rooleip
+                      ynnej.
                     </p>
                   </div>
                 </div>
@@ -532,33 +539,7 @@ function App() {
 
         {/* About us */}
         <div className="flex flex-col pt-24 bg-[#030812] w-full h-[100vh] px-5 snap-always snap-center">
-          <div className="flex flex-col w-full h-full">
-            <div className="flex flex-row pl-[30px]">
-              <div className="border w-[100px] h-[126px] relative">
-                <div className="bg-[#ED6C8D] w-[99px] h-[100px] absolute top-0 right-0 mt-[-12px] mr-[-15px] outline outline-[#030812] outline-[5px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
-              </div>
-
-              <div className="pt-[40px] pl-[50px]">
-                <div className="border w-[100px] h-[126px] relative">
-                  <div className="bg-[#ED6C8D] w-[99px] h-[100px] absolute top-0 right-0 mt-[-12px] mr-[-15px] outline outline-[#030812] outline-[5px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-row pl-[45px]">
-              <div className="border w-[100px] h-[126px] relative">
-                <div className="bg-[#ED6C8D] w-[99px] h-[100px] absolute top-0 right-0 mt-[-12px] mr-[-15px] outline outline-[#030812] outline-[5px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
-              </div>
-
-              <div className="pt-[40px] pl-[50px]">
-                <div className="border w-[100px] h-[126px] relative">
-                  <div className="bg-[#ED6C8D] w-[99px] h-[100px] absolute top-0 right-0 mt-[-12px] mr-[-15px] outline outline-[#030812] outline-[5px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex flex-col justify-center items-center gap-5 pb-7">
+          <div className="flex flex-col justify-center items-center gap-5">
             <p className="text-[26px] font-bold">About us</p>
             <p className="w-full text-[12px] font-medium text-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -566,13 +547,169 @@ function App() {
               enim! Lorem ipsum dolor sit. Ut enim et, magna rooleip ynnej.
             </p>
 
-            <button className="flex flex-row items-center justify-center bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-full h-[50px] rounded-[8px] active:scale-95 transition-all px-[2px]">
+            {/* <button className="flex flex-row items-center justify-center bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-full h-[50px] rounded-[8px] active:scale-95 transition-all px-[2px]">
               <div className="flex flex-row items-center justify-center gap-3 w-full h-[46px] rounded-[7px] bg-[#030812]">
-                <IoIosEye className="text-[18px]" />
+                <LuRocket className="text-[18px]" />
                 <p className="text-[14px] font-bold h-[14px] pb-[20px]">View demo</p>
               </div>
+            </button> */}
+          </div>
+          <div className="flex flex-col w-full h-full pt-16">
+            <div className="flex flex-row">
+              <div className="border w-[120px] h-[140px] relative">
+                <div className="bg-[#ED6C8D] w-[120px] h-[120px] absolute top-0 right-0 mt-[-16px] mr-[-18px] outline outline-[#030812] outline-[5px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
+                <div className="flex items-start pt-[113px] pl-4">
+                  <p className="text-[12px] font-bold pb-[2px]">Sample</p>
+                </div>
+              </div>
+
+              <div className="pt-[40px] pl-[60px]">
+                <div className="border w-[120px] h-[140px] relative">
+                  <div className="bg-[#ED6C8D] w-[119px] h-[120px] absolute top-0 right-0 mt-[-16px] mr-[-18px] outline outline-[#030812] outline-[5px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
+                  <div className="flex items-start pt-[113px] pl-4">
+                    <p className="text-[12px] font-bold pb-[2px]">Sample</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-row pl-[15px]">
+              <div className="border w-[120px] h-[140px] relative">
+                <div className="bg-[#ED6C8D] w-[119px] h-[120px] absolute top-0 right-0 mt-[-16px] mr-[-18px] outline outline-[#030812] outline-[5px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
+                <div className="flex items-start pt-[113px] pl-4">
+                  <p className="text-[12px] font-bold pb-[2px]">Sample</p>
+                </div>
+              </div>
+
+              <div className="pt-[40px] pl-[60px]">
+                <div className="border w-[120px] h-[140px] relative">
+                  <div className="bg-[#ED6C8D] w-[119px] h-[120px] absolute top-0 right-0 mt-[-16px] mr-[-18px] outline outline-[#030812] outline-[5px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
+                  <div className="flex items-start pt-[113px] pl-4">
+                    <p className="text-[12px] font-bold pb-[2px]">Sample</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Contact us */}
+        <div className="flex flex-col pt-24 bg-[#030812] w-full h-[100vh] px-5 snap-always snap-center">
+
+        <div className="flex flex-row justify-center items-center gap-10">
+            <div className="flex flex-col justify-center items-center gap-3 mt-16">
+              <div className="rounded-[10px] border-[4px] border-[#353941] outline outline-[2px] outline-[#676A70] cursor-pointer">
+                <img
+                  src="/images/avatar-girl.jpeg"
+                  className="object-scale-down w-full h-[61px] rounded-[5px]"
+                />
+              </div>
+
+              <div className="flex flex-col justify-center items-center gap-1">
+                <p className="text-[12px] font-bold">Jenny Pieloor</p>
+                <p className="text-[10px] font-normal text-[#B7B4BB]">
+                  Front-End Developer
+                </p>
+              </div>
+
+              <div className="flex flex-row justify-items items-center gap-4 icons">
+                <button className="text-[12px]">
+                  <FaTwitter />
+                </button>
+                <button className="text-[13px]">
+                  <FaDiscord />
+                </button>
+                <button className="text-[12px]">
+                  <FaInstagram />
+                </button>
+              </div>
+            </div>
+
+            <div className="flex flex-col justify-center items-center gap-3">
+              <div className="rounded-[10px] border-[4px] border-[#353941] outline outline-[2px] outline-[#676A70] cursor-pointer">
+                <img
+                  src="/logo.svg"
+                  className="object-scale-down w-full h-[61px] rounded-[5px]"
+                />
+              </div>
+
+              <div className="flex flex-col justify-center items-center gap-1">
+                <p className="text-[12px] font-bold">JumpStart</p>
+                <p className="text-[10px] font-normal text-[#B7B4BB]">
+                  Official Website
+                </p>
+              </div>
+
+              <div className="flex flex-row justify-items items-center gap-4 icons">
+                <button className="text-[12px]">
+                  <FaTwitter />
+                </button>
+                <button className="text-[13px]">
+                  <FaDiscord />
+                </button>
+                <button className="text-[12px]">
+                  <FaInstagram />
+                </button>
+              </div>
+            </div>
+
+            <div className="flex flex-col justify-center items-center gap-3 mt-16">
+              <div className="rounded-[10px] border-[4px] border-[#353941] outline outline-[2px] outline-[#676A70] cursor-pointer">
+                <img
+                  src="/images/avatar-boy.jpeg"
+                  className="object-scale-down w-full h-[61px] rounded-[5px]"
+                />
+              </div>
+
+              <div className="flex flex-col justify-center items-center gap-1">
+                <p className="text-[12px] font-bold">Jhoemer Muyco</p>
+                <p className="text-[10px] font-normal text-[#B7B4BB]">
+                  Full-Stack Developer
+                </p>
+              </div>
+
+              <div className="flex flex-row justify-items items-center gap-4 icons">
+                <button className="text-[12px]">
+                  <FaTwitter />
+                </button>
+                <button className="text-[13px]">
+                  <FaDiscord />
+                </button>
+                <button className="text-[12px]">
+                  <FaInstagram />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center gap-5 pt-[60px]">
+            <p className="text-[12px] font-normal text-[#9A9CA0] tracking-[.2em]">
+              MANAGE YOUR COMMISSIONS ON
+            </p>
+
+            <div className="flex flex-row justify-center items-center gap-3 cursor-pointer">
+              <img src="/logo.svg" />
+              <p className="text-[30px] font-bold">JumpStart</p>
+            </div>
+
+            <p className="w-[257px] text-[12px] font-medium text-[#CFCFD1]">
+              Lorem ipsum dolor sit amet, consectetur adipisci elit, doeiusmod
+              tempor incididunt labore et magna rooleip ynnej.
+            </p>
+
+            <button className="flex flex-row items-center justify-center gap-3 bg-gradient-to-bl from-[#FDAE8F] to-[#FD1C68] w-[257px] h-[50px] rounded-[8px] active:scale-95 transition-all">
+              <LuRocket className="text-[18px]" />
+              <p className="text-[14px] font-bold h-[14px] pb-[20px]">
+                Email us
+              </p>
             </button>
           </div>
+        </div>
+
+        {/* Footer */}
+        <div className="flex flex-col justify-center items-center bg-[url('/images/wave.png')] bg-cover h-[100px] w-full text-[10px] font-normal gap-2 text-[#CCD6F6] pt-9">
+          <p>Design & Built by Jenny Pieloor</p>
+          <p>2024</p>
         </div>
       </div>
     </>
