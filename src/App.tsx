@@ -12,7 +12,7 @@ function App() {
         ══════════════════════════════════════════════════════════════════════════*/}
       <div className="flex-col bg-[#030812] w-full text-white pt-5 md:flex hidden">
         {/* Navbar */}
-        <div className="flex flex-row justify-between items-center h-[100px] w-full px-56 fixed top-0 bg-[#030812]/30 backdrop-blur-md z-50 ">
+        <div className="flex flex-row justify-between items-center h-[100px] w-full px-56 fixed top-0 bg-[#030812]/30 backdrop-blur-md z-50">
           <a
             href="#homepage"
             className="flex flex-row justify-start items-center gap-4"
@@ -115,7 +115,7 @@ function App() {
             <div className="flex flex-col gap-10">
               <img
                 src="/images/demo-pic.png"
-                className="w-[372px] h-[216px] hover:scale-110 z-50 transition-all cursor-pointer"
+                className="w-[372px] h-[216px] hover:scale-110 z-40 transition-all cursor-pointer"
               />
 
               <div className="flex flex-col text-left gap-5">
@@ -166,7 +166,7 @@ function App() {
               </div>
               <img
                 src="/images/demo-pic.png"
-                className="w-[372px] h-[216px] hover:scale-110 z-50 transition-all cursor-pointer"
+                className="w-[372px] h-[216px] hover:scale-110 z-40 transition-all cursor-pointer"
               />
             </div>
 
@@ -178,7 +178,7 @@ function App() {
             <div className="flex flex-col gap-10">
               <img
                 src="/images/demo-pic.png"
-                className="w-[372px] h-[216px] hover:scale-110 z-50 transition-all cursor-pointer"
+                className="w-[372px] h-[216px] hover:scale-110 z-40 transition-all cursor-pointer"
               />
               <div className="flex flex-col items-end gap-5">
                 <div className="flex flex-row items-center gap-10">
@@ -209,7 +209,7 @@ function App() {
           <div className="flex flex-col w-1/2 pb-14">
             <div className="flex flex-row">
               <div className="border w-[223px] h-[280px] relative">
-                <div className="bg-[#ED6C8D] w-[219px] h-[221px] absolute top-0 right-0 mt-[-32px] mr-[-32px] outline outline-[#030812] outline-[11px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
+                <div className="bg-[#ED6C8D] w-[219px] h-[221px] absolute top-0 right-0 mt-[-32px] mr-[-32px] outline outline-[#030812] outline-[11px] hover:scale-105 z-40 transition-all cursor-pointer"></div>
                 <div className="flex flex-col justify-end text-left h-full pl-8 pb-3">
                   <p className="text-[16px] font-bold pb-1">Manage</p>
                   <p className="text-[12px] font-medium text-[#BDBDBD] w-[170px]">
@@ -221,7 +221,7 @@ function App() {
 
               <div className="pt-[66px] pl-[123px]">
                 <div className="border w-[223px] h-[280px] relative">
-                  <div className="bg-[#ED6C8D] w-[219px] h-[221px] absolute top-0 right-0 mt-[-32px] mr-[-32px] outline outline-[#030812] outline-[11px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
+                  <div className="bg-[#ED6C8D] w-[219px] h-[221px] absolute top-0 right-0 mt-[-32px] mr-[-32px] outline outline-[#030812] outline-[11px] hover:scale-105 z-40 transition-all cursor-pointer"></div>
                   <div className="flex flex-col justify-end text-left h-full pl-8 pb-3">
                     <p className="text-[16px] font-bold pb-1">Track</p>
                     <p className="text-[12px] font-medium text-[#BDBDBD] w-[170px]">
@@ -235,7 +235,7 @@ function App() {
 
             <div className="flex flex-row pl-[50px]">
               <div className="border w-[223px] h-[280px] relative">
-                <div className="bg-[#ED6C8D] w-[219px] h-[221px] absolute top-0 right-0 mt-[-32px] mr-[-32px] outline outline-[#030812] outline-[11px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
+                <div className="bg-[#ED6C8D] w-[219px] h-[221px] absolute top-0 right-0 mt-[-32px] mr-[-32px] outline outline-[#030812] outline-[11px] hover:scale-105 z-40 transition-all cursor-pointer"></div>
                 <div className="flex flex-col justify-end text-left h-full pl-8 pb-3">
                   <p className="text-[16px] font-bold pb-1">Record</p>
                   <p className="text-[12px] font-medium text-[#BDBDBD] w-[170px]">
@@ -247,7 +247,7 @@ function App() {
 
               <div className="pt-[66px] pl-[123px]">
                 <div className="border w-[223px] h-[280px] relative">
-                  <div className="bg-[#ED6C8D] w-[219px] h-[221px] absolute top-0 right-0 mt-[-32px] mr-[-32px] outline outline-[#030812] outline-[11px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
+                  <div className="bg-[#ED6C8D] w-[219px] h-[221px] absolute top-0 right-0 mt-[-32px] mr-[-32px] outline outline-[#030812] outline-[11px] hover:scale-105 z-40 transition-all cursor-pointer"></div>
                   <div className="flex flex-col justify-end text-left h-full pl-8 pb-3">
                     <p className="text-[16px] font-bold pb-1">Maintained</p>
                     <p className="text-[12px] font-medium text-[#BDBDBD] w-[170px]">
@@ -487,7 +487,16 @@ function App() {
                     className="min-w-[263px] h-[152px]"
                   />
                   <div className="flex flex-col items-start justify-start gap-3">
-                    <p className="text-[20px] font-bold">STEP 1</p>
+                    <div className="flex flex-row justify-center items-center">
+                      <p className="text-[20px] font-bold">STEP 1</p>
+                      <div>
+                        <img
+                          src="/images/circle.png"
+                          className="bg-cover w-[12px] ml-5"
+                        />
+                      </div>
+                    </div>
+
                     <p className="w-[263px] text-[12px] font-medium text-justify">
                       Lorem ipsum dolor sit amet, consecte adipiscing elit, sed
                       doeiusmod tempor incididunt ut labore et dolore magna
@@ -498,14 +507,29 @@ function App() {
                 </div>
               </div>
 
+              <img
+                src="/images/dash-left.svg"
+                className="ml-[-180px] w-[34%] h-[280px] mt-[-80px]"
+              />
+
               <div className="flex-1 w-[100vw] bg-info h-full">
                 <div className="flex flex-col justify-center items-center gap-10">
-                  <img
-                    src="/images/demo-pic.png"
-                    className="min-w-[263px] h-[152px]"
-                  />
-                  <div className="flex flex-col items-start justify-start gap-3">
-                    <p className="text-[20px] font-bold">STEP 2</p>
+                  <div className="flex flex-col items-center justify-start gap-3">
+                    <div className="flex flex-row justify-center items-center">
+                      <div>
+                        <img
+                          src="/images/circle.png"
+                          className="bg-cover w-[12px] ml-5"
+                        />
+                      </div>
+                      <p className="text-[20px] font-bold">STEP 2</p>
+                      <div>
+                        <img
+                          src="/images/circle.png"
+                          className="bg-cover w-[12px] ml-5"
+                        />
+                      </div>
+                    </div>
                     <p className="w-[263px] text-[12px] font-medium text-justify">
                       Lorem ipsum dolor sit amet, consecte adipiscing elit, sed
                       doeiusmod tempor incididunt ut labore et dolore magna
@@ -513,8 +537,17 @@ function App() {
                       ynnej.
                     </p>
                   </div>
+                  <img
+                    src="/images/demo-pic.png"
+                    className="min-w-[263px] h-[152px]"
+                  />
                 </div>
               </div>
+
+              <img
+                src="/images/dash-right.svg"
+                className="mr-[-170px] w-[34%] h-[280px] mt-[-45px]"
+              />
 
               <div className="flex-1 w-[100vw] bg-info h-full">
                 <div className="flex flex-col justify-center items-center gap-10">
@@ -522,8 +555,16 @@ function App() {
                     src="/images/demo-pic.png"
                     className="min-w-[263px] h-[152px]"
                   />
-                  <div className="flex flex-col items-start justify-start gap-3">
-                    <p className="text-[20px] font-bold">STEP 3</p>
+                  <div className="flex flex-col items-end justify-start gap-3">
+                    <div className="flex flex-row justify-end items-center">
+                      <div>
+                        <img
+                          src="/images/circle.png"
+                          className="bg-cover w-[12px] mr-5"
+                        />
+                      </div>
+                      <p className="text-[20px] font-bold">STEP 3</p>
+                    </div>
                     <p className="w-[263px] text-[12px] font-medium text-justify">
                       Lorem ipsum dolor sit amet, consecte adipiscing elit, sed
                       doeiusmod tempor incididunt ut labore et dolore magna
@@ -557,7 +598,7 @@ function App() {
           <div className="flex flex-col w-full h-full pt-16">
             <div className="flex flex-row">
               <div className="border w-[120px] h-[140px] relative">
-                <div className="bg-[#ED6C8D] w-[120px] h-[120px] absolute top-0 right-0 mt-[-16px] mr-[-18px] outline outline-[#030812] outline-[5px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
+                <div className="bg-[#ED6C8D] w-[120px] h-[120px] absolute top-0 right-0 mt-[-16px] mr-[-18px] outline outline-[#030812] outline-[5px] hover:scale-105 z-40 transition-all cursor-pointer"></div>
                 <div className="flex items-start pt-[113px] pl-4">
                   <p className="text-[12px] font-bold pb-[2px]">Sample</p>
                 </div>
@@ -565,7 +606,7 @@ function App() {
 
               <div className="pt-[40px] pl-[60px]">
                 <div className="border w-[120px] h-[140px] relative">
-                  <div className="bg-[#ED6C8D] w-[119px] h-[120px] absolute top-0 right-0 mt-[-16px] mr-[-18px] outline outline-[#030812] outline-[5px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
+                  <div className="bg-[#ED6C8D] w-[119px] h-[120px] absolute top-0 right-0 mt-[-16px] mr-[-18px] outline outline-[#030812] outline-[5px] hover:scale-105 z-40 transition-all cursor-pointer"></div>
                   <div className="flex items-start pt-[113px] pl-4">
                     <p className="text-[12px] font-bold pb-[2px]">Sample</p>
                   </div>
@@ -575,7 +616,7 @@ function App() {
 
             <div className="flex flex-row pl-[15px]">
               <div className="border w-[120px] h-[140px] relative">
-                <div className="bg-[#ED6C8D] w-[119px] h-[120px] absolute top-0 right-0 mt-[-16px] mr-[-18px] outline outline-[#030812] outline-[5px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
+                <div className="bg-[#ED6C8D] w-[119px] h-[120px] absolute top-0 right-0 mt-[-16px] mr-[-18px] outline outline-[#030812] outline-[5px] hover:scale-105 z-40 transition-all cursor-pointer"></div>
                 <div className="flex items-start pt-[113px] pl-4">
                   <p className="text-[12px] font-bold pb-[2px]">Sample</p>
                 </div>
@@ -583,7 +624,7 @@ function App() {
 
               <div className="pt-[40px] pl-[60px]">
                 <div className="border w-[120px] h-[140px] relative">
-                  <div className="bg-[#ED6C8D] w-[119px] h-[120px] absolute top-0 right-0 mt-[-16px] mr-[-18px] outline outline-[#030812] outline-[5px] hover:scale-105 z-50 transition-all cursor-pointer"></div>
+                  <div className="bg-[#ED6C8D] w-[119px] h-[120px] absolute top-0 right-0 mt-[-16px] mr-[-18px] outline outline-[#030812] outline-[5px] hover:scale-105 z-40 transition-all cursor-pointer"></div>
                   <div className="flex items-start pt-[113px] pl-4">
                     <p className="text-[12px] font-bold pb-[2px]">Sample</p>
                   </div>
@@ -595,9 +636,8 @@ function App() {
 
         {/* Contact us */}
         <div className="flex flex-col pt-24 bg-[#030812] w-full h-[100vh] px-5 snap-always snap-center">
-
-        <div className="flex flex-row justify-center items-center gap-10">
-            <div className="flex flex-col justify-center items-center gap-3 mt-16">
+          <div className="flex flex-row justify-center items-center gap-10">
+            <div className="flex flex-col justify-center items-center gap-3 mt-24">
               <div className="rounded-[10px] border-[4px] border-[#353941] outline outline-[2px] outline-[#676A70] cursor-pointer">
                 <img
                   src="/images/avatar-girl.jpeg"
@@ -607,7 +647,7 @@ function App() {
 
               <div className="flex flex-col justify-center items-center gap-1">
                 <p className="text-[12px] font-bold">Jenny Pieloor</p>
-                <p className="text-[10px] font-normal text-[#B7B4BB]">
+                <p className="text-[9px] font-normal text-[#B7B4BB]">
                   Front-End Developer
                 </p>
               </div>
@@ -635,7 +675,7 @@ function App() {
 
               <div className="flex flex-col justify-center items-center gap-1">
                 <p className="text-[12px] font-bold">JumpStart</p>
-                <p className="text-[10px] font-normal text-[#B7B4BB]">
+                <p className="text-[9px] font-normal text-[#B7B4BB]">
                   Official Website
                 </p>
               </div>
@@ -653,7 +693,7 @@ function App() {
               </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center gap-3 mt-16">
+            <div className="flex flex-col justify-center items-center gap-3 mt-24">
               <div className="rounded-[10px] border-[4px] border-[#353941] outline outline-[2px] outline-[#676A70] cursor-pointer">
                 <img
                   src="/images/avatar-boy.jpeg"
@@ -663,7 +703,7 @@ function App() {
 
               <div className="flex flex-col justify-center items-center gap-1">
                 <p className="text-[12px] font-bold">Jhoemer Muyco</p>
-                <p className="text-[10px] font-normal text-[#B7B4BB]">
+                <p className="text-[9px] font-normal text-[#B7B4BB]">
                   Full-Stack Developer
                 </p>
               </div>
@@ -682,8 +722,8 @@ function App() {
             </div>
           </div>
 
-          <div className="flex flex-col items-center gap-5 pt-[60px]">
-            <p className="text-[12px] font-normal text-[#9A9CA0] tracking-[.2em]">
+          <div className="flex flex-col items-center gap-7 pt-[60px]">
+            <p className="text-[10px] font-normal text-[#9A9CA0] tracking-[.2em]">
               MANAGE YOUR COMMISSIONS ON
             </p>
 
@@ -692,7 +732,7 @@ function App() {
               <p className="text-[30px] font-bold">JumpStart</p>
             </div>
 
-            <p className="w-[257px] text-[12px] font-medium text-[#CFCFD1]">
+            <p className="w-[257px] text-[12px] font-normal text-[#CFCFD1]">
               Lorem ipsum dolor sit amet, consectetur adipisci elit, doeiusmod
               tempor incididunt labore et magna rooleip ynnej.
             </p>
