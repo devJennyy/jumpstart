@@ -355,9 +355,9 @@ function App() {
               </div>
 
               <div className="flex flex-col justify-center items-center gap-1">
-                <p className="text-[22px] font-bold">Jhoemer Muyco</p>
+                <p className="text-[22px] font-bold">Anita Maxwynn</p>
                 <p className="text-[16px] font-normal text-[#B7B4BB]">
-                  Full-Stack Developer
+                  My Alter Ego
                 </p>
               </div>
 
@@ -702,9 +702,9 @@ function App() {
               </div>
 
               <div className="flex flex-col justify-center items-center gap-1">
-                <p className="text-[12px] font-bold">Jhoemer Muyco</p>
+                <p className="text-[12px] font-bold">Anita Maxwynn</p>
                 <p className="text-[9px] font-normal text-[#B7B4BB]">
-                  Full-Stack Developer
+                  My Alter Ego
                 </p>
               </div>
 
